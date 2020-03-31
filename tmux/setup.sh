@@ -15,7 +15,7 @@ SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) && cd "$SCRIPT_DIR" || 
 echo "SetupBot=> Setting tmux config, Master"
 
 # backup existing conf -- if exists
-[ -f ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.bak
+[ -f ~/.tmux.conf ] && cp ~/.tmux.conf ~/.tmux.conf.bak
 
 # create a symlink to conf
 ln -sf "$SCRIPT_DIR/tmux.conf" ~/.tmux.conf
