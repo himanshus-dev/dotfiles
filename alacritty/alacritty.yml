@@ -39,7 +39,7 @@ colors:
 
   cursor:
     text: '#ffffff'
-    cursor: '#ffffff'
+    cursor: '#a1a1a1'
 
   # Normal colors
   normal:
@@ -94,7 +94,7 @@ background_opacity: 0.8
 shell:
   program: /usr/bin/zsh
   # args:
-  #   - 
+  #   -  
 
 debug:
   # Should display the render timer
