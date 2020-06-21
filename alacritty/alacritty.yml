@@ -4,7 +4,7 @@ window:
   # Specified in number of columns/lines, not pixels. If both are zero this
   # setting is ignored.
   dimensions:
-    columns: 190
+    columns: 200
     lines: 45
 
   # Spread additional padding evenly around the terminal content.
@@ -30,46 +30,33 @@ window:
   #   - SimpleFullscreen
   startup_mode: Maximized
 
-# Colors (Darktooth)
-colors:
-
+#colors:
   # Default colors
   primary:
-    background: '#282828'
-    foreground: '#fdf4c1'
+    background: '#000000'
+    foreground: '#dddddd'
 
   # Normal colors
   normal:
-    black:   '#282828'
-    red:     '#9d0006'
-    green:   '#79740e'
-    yellow:  '#b57614'
-    blue:    '#076678'
-    magenta: '#8f3f71'
-    cyan:    '#00a7af'
-    white:   '#fdf4c1'
+    black:   '#000000'
+    red:     '#cc0403'
+    green:   '#19cb00'
+    yellow:  '#cecb00'
+    blue:    '#0d73cc'
+    magenta: '#cb1ed1'
+    cyan:    '#0dcdcd'
+    white:   '#dddddd'
 
   # Bright colors
   bright:
-    black:   '#32302f'
-    red:     '#fb4933'
-    green:   '#b8bb26'
-    yellow:  '#fabd2f'
-    blue:    '#83a598'
-    magenta: '#d3869b'
-    cyan:    '#3fd7e5'
-    white:   '#ffffc8'
-
-  # Dim colors (Optional)
-  dim:
-    black:   '#1d2021'
-    red:     '#421e1e'
-    green:   '#232b0f'
-    yellow:  '#4d3b27'
-    blue:    '#2b3c44'
-    magenta: '#4e3d45'
-    cyan:    '#205161'
-    white:   '#f4e8ba'
+    black:   '#767676'
+    red:     '#f2201f'
+    green:   '#23fd00'
+    yellow:  '#fffd00'
+    blue:    '#1a8fff'
+    magenta: '#fd28ff'
+    cyan:    '#14ffff'
+    white:   '#ffffff'
 
 font:
   # Normal (roman) font face

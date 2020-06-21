@@ -76,3 +76,12 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 	add-zle-hook-widget -Uz zle-line-init zle_application_mode_start
 	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
+
+# golang stuff
+export GOROOT=$HOME/go
+#export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# aliases
+alias vi='vim'
+alias own_dir='sudo chown -R himanshu:himanshu'
