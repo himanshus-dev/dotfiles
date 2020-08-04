@@ -1,3 +1,6 @@
+# set env vars
+export TERM=xterm-256color
+
 # fuzzy-finder
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
@@ -14,6 +17,9 @@ fi
 export GOROOT=$HOME/go
 #export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# rust stuff
+export PATH=$HOME/.cargo/bin:$PATH
 
 # aliases
 alias own_dir='sudo chown -R himanshu:himanshu'

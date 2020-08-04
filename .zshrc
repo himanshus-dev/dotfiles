@@ -1,5 +1,6 @@
 # set env vars
 export SHELL=/usr/bin/zsh
+export TERM=xterm-256color
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -78,9 +79,12 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 fi
 
 # golang stuff
-export GOROOT=$HOME/go
-#export GOPATH=$HOME/go
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# rust stuff
+export PATH=$HOME/.cargo/bin:$PATH
 
 # aliases
 alias vi='vim'
