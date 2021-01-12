@@ -1,0 +1,4 @@
+* {
+	dialog-width: 520px;
+	item-spacing: 280px;
+}
